@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row-1 div{
+width: 40px;
+height: 40px;
+background-color: rgb(255, 255, 255);
+border-radius: 50%;
+margin: 15px;
+margin-left: 32px;
+
+}
+.row-2 div{
+    width: 40px;
+height: 40px;
+background-color: rgb(255, 255, 255);
+border-radius: 50%;
+margin: 15px;
+}
+.dice{
+    display: flex;
+    border: 2px solid black;
+    height: 180px;
+    width: 180px;
+    background-color: brown;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(106, 132, 132);
+    align-items: center;
+    height: 25rem;
+
+}
+.heading{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: blueviolet;
+}
+.player-1 p{
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.player-2 p{
+    font-size: 2rem;
+    margin-left:2rem;
+}
+.player-1{
+    margin-right: 4rem;
+}
+
+.visibility{
+    visibility: hidden;
+}
